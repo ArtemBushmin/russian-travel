@@ -1,0 +1,9 @@
+.header {
+  display: grid;
+  grid-template-columns: calc(1107%/11.84) calc(46%/11.84) calc(28%/11.84);
+  grid-template-rows: fit-content(calc(100vw/(1280/52)));
+  margin: 0 auto;
+  width: calc(1184%/12.8);
+  padding-top: calc(28%/12.8);
+  align-items: end;
+}

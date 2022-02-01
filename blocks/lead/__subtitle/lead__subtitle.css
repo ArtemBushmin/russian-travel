@@ -1,0 +1,12 @@
+.lead__subtitle {
+  margin: calc(100vw/(1280/32)) auto calc(100vw/(1280/64));
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(100vw/(1280/30));
+  line-height: calc(100vw/(1280/36));
+  text-align: center;
+  color: #FFFFFF;
+  width: calc(100vw/(1280/640));
+  height: calc(100vw/(1280/72));
+}

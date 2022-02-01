@@ -1,0 +1,10 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, calc(100vw/(1280/284)));
+  grid-template-rows: repeat(3, calc(100vw/(1280/213)));
+  gap: calc(100vw/(1280/16));
+  margin: 0 auto;
+  padding-top: calc(100vw/(1280/92));
+  width: calc(100vw/(1280/1184));
+  height: calc(100vw/(1280/671));
+}

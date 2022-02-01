@@ -1,0 +1,12 @@
+.lead__caption {
+  margin: calc(100vw/(1280/8)) auto 0 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(100vw/(1280/10));
+  line-height: calc(100vw/(1280/14));
+  letter-spacing: calc(100vw/(1280/1.5));
+  text-transform: uppercase;
+  color: #FFFFFF;
+  height: calc(100vw/(1280/14));
+}

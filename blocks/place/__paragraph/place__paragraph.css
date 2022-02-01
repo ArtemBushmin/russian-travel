@@ -1,0 +1,9 @@
+.place__paragraph {
+  margin: 0 0 calc(100vw/(1280/26)) calc(100vw/(1280/40));
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(100vw/(1280/18));
+  line-height: calc(100vw/(1280/29.34));
+  color: #FFFFFF;
+}

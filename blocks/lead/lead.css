@@ -1,0 +1,9 @@
+.lead {
+  display: flex;
+  margin: 0 auto;
+  padding-top: calc(100vw/(1280/56));
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100vw/(1280/984));
+  height: calc(100vw/(1280/1005));
+}

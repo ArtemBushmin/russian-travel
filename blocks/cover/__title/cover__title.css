@@ -1,0 +1,11 @@
+.cover__title {
+  margin: calc(100vw/(1280/245)) auto calc(100vw/(1280/32));
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(100vw/(1280/72));
+  line-height: calc(100vw/(1280/76));
+  color: #FFFFFF;
+  width: calc(100vw/(1280/560));
+  text-align: center;
+}

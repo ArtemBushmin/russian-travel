@@ -1,0 +1,8 @@
+.cover__overlay {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-decoration: none;
+  width: calc(100vw/(1280/1184));
+  height: calc(100vw/(1280/740));
+}

@@ -1,0 +1,9 @@
+.intro {
+  display: flex;
+  margin: 0;
+  padding: calc(100vw/(1280/92)) 0 0 calc(100vw/(1280/148));
+  flex-direction: column;
+  justify-content: flex-start;
+  width: calc(100vw/(1280/690));
+  height: calc(100vw/(1280/429));
+}

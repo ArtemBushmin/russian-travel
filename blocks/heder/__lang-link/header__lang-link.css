@@ -1,0 +1,13 @@
+.header__lang-link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(100vw/(1280/24));
+  line-height: calc(100vw/(1280/28));
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+  opacity: 0.5;
+}

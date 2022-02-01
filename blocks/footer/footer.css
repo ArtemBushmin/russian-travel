@@ -1,0 +1,10 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  grid-template-rows: max-content;
+  margin: 0 auto;
+  width: calc(100vw/(1280/1184));
+  padding: calc(100vw/(1280/92)) 0 calc(100vw/(1280/24));
+  align-items: end;
+  justify-content: space-between;
+}

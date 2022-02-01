@@ -1,0 +1,5 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0 calc(100vw/(1280/48)) calc(100vw/(1280/40));
+}

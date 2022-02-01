@@ -1,0 +1,9 @@
+.places {
+  display: grid;
+  grid-template-columns: calc(100vw/(1280/984));
+  grid-template-rows: repeat(5, max-content);
+  gap: calc(100vw/(1280/80));
+  margin: 0 auto;
+  padding: calc(100vw/(1280/92)) 0;
+  width: calc(100vw/(1280/984));
+}

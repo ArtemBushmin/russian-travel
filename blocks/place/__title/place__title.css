@@ -1,0 +1,9 @@
+.place__title {
+  margin: 0 0 calc(100vw/(1280/48)) 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: calc(100vw/(1280/72));
+  line-height: calc(100vw/(1280/76));
+  color: #FFFFFF;
+}

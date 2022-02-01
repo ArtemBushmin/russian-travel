@@ -1,0 +1,9 @@
+.footer__copyright {
+  margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(100vw/(1280/14));
+  line-height: calc(100vw/(1280/16));
+  color: #FFFFFF;
+}
