@@ -6,3 +6,24 @@
   width: calc(100vw/(1280/1184));
   height: calc(100vw/(1280/740));
 }
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    width: 100%;
+    height: calc(100vw/(1024/640));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    width: 100%;
+    height: calc(100vw/(768/480));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    width: 100%;
+    height: calc(100vw/(320/200));
+  }
+}

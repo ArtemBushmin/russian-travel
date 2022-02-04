@@ -2,4 +2,26 @@
   display: flex;
   flex-direction: column;
   margin: auto 0 calc(100vw/(1280/48)) calc(100vw/(1280/40));
+  width: calc(100vw/(1280/484));
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+    margin: auto 0 calc(100vw/(1024/48)) calc(100vw/(1024/32));
+    width: calc(100vw/(1024/456));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin: auto 0 calc(100vw/(768/48)) calc(100vw/(768/28));
+    width: calc(100vw/(768/352));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 auto calc(100vw/(320/32));
+    width: calc(100vw/(320/288));
+  }
 }

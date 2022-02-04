@@ -1,6 +1,5 @@
 .place__link {
   margin: 0;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: calc(100vw/(1280/18));
@@ -11,4 +10,25 @@
 
 .place__link:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__link {
+    font-size: calc(100vw/(1024/18));
+    line-height: calc(100vw/(1024/22));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__link {
+    font-size: calc(100vw/(768/18));
+    line-height: calc(100vw/(768/22));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: calc(100vw/(320/18));
+    line-height: calc(100vw/(320/22));
+  }
 }

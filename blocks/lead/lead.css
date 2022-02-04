@@ -5,5 +5,25 @@
   flex-direction: column;
   justify-content: center;
   width: calc(100vw/(1280/984));
-  height: calc(100vw/(1280/1005));
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    padding-top: calc(100vw/(1024/48));
+    width: calc(100vw/(1024/928));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    padding-top: calc(100vw/(768/48));
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    padding-top: calc(100vw/(320/48));
+    width: 100%;
+  }
 }

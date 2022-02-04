@@ -3,3 +3,24 @@
   width: calc(100vw/(1280/176));
   height: calc(100vw/(1280/52));
 }
+
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    width: calc(100vw/(1024/176));
+    height: calc(100vw/(1024/52));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: calc(100vw/(768/176));
+    height: calc(100vw/(768/52));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    width: calc(100vw/(320/142));
+    height: calc(100vw/(320/42));
+  }
+}

@@ -1,11 +1,33 @@
 .intro__title {
   margin: 0;
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: calc(100vw/(1280/54));
   line-height: calc(100vw/(1280/58));
   color: #FFFFFF;
   width: calc(100vw/(1280/690));
-  height: calc(100vw/(1280/58));
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title{
+    font-size: calc(100vw/(1024/54));
+    line-height: calc(100vw/(1024/58));
+    width: calc(100vw/(1024/690));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    font-size: calc(100vw/(768/54));
+    line-height: calc(100vw/(768/58));
+    width: calc(100vw/(768/720));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: calc(100vw/(320/32));
+    line-height: calc(100vw/(320/35));
+    width: calc(100vw/(320/288));
+  }
 }

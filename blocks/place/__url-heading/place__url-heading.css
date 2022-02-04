@@ -1,10 +1,36 @@
 .place__url-heading {
   margin: 0 0 calc(100vw/(1280/12)) 0;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: calc(100vw/(1280/12));
   line-height: calc(100vw/(1280/12));
   letter-spacing: calc(100vw/(1280/2));
   color: #AAAAAA;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__url-heading {
+    margin: 0 0 calc(100vw/(1024/12)) 0;
+    font-size: calc(100vw/(1024/12));
+    line-height: calc(100vw/(1024/12));
+    letter-spacing: calc(100vw/(1024/2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__url-heading {
+    margin: 0 0 calc(100vw/(768/12)) 0;
+    font-size: calc(100vw/(768/12));
+    line-height: calc(100vw/(768/12));
+    letter-spacing: calc(100vw/(768/2));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    margin: 0 0 calc(100vw/(320/12)) 0;
+    font-size: calc(100vw/(320/12));
+    line-height: calc(100vw/(320/12));
+    letter-spacing: calc(100vw/(320/2));
+  }
 }

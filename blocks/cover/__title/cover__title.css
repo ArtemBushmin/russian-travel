@@ -1,6 +1,5 @@
 .cover__title {
   margin: calc(100vw/(1280/245)) auto calc(100vw/(1280/32));
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: calc(100vw/(1280/72));
@@ -8,4 +7,31 @@
   color: #FFFFFF;
   width: calc(100vw/(1280/560));
   text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    margin: calc(100vw/(1024/195)) auto calc(100vw/(1024/32));
+    font-size: calc(100vw/(1024/72));
+    line-height: calc(100vw/(1024/76));
+    width: calc(100vw/(1024/560));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    margin: calc(100vw/(768/115)) auto calc(100vw/(768/32));
+    font-size: calc(100vw/(768/72));
+    line-height: calc(100vw/(768/76));
+    width: calc(100vw/(768/560));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    margin: calc(100vw/(320/33)) auto calc(100vw/(320/16));
+    font-size: calc(100vw/(320/32));
+    line-height: calc(100vw/(320/35));
+    width: calc(100vw/(320/250));
+  }
 }

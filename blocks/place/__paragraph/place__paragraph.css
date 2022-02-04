@@ -1,9 +1,40 @@
 .place__paragraph {
   margin: 0 0 calc(100vw/(1280/26)) calc(100vw/(1280/40));
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: calc(100vw/(1280/18));
   line-height: calc(100vw/(1280/29.34));
   color: #FFFFFF;
+  width: calc(100vw/(1280/484));
+}
+
+.place__paragraph:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__paragraph {
+      margin: 0 0 calc(100vw/(1024/27)) calc(100vw/(1024/32));
+      font-size: calc(100vw/(1024/18));
+      line-height: calc(100vw/(1024/29.34));
+      width: calc(100vw/(1024/456));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+      margin: 0 0 calc(100vw/(768/25)) calc(100vw/(768/28));
+      font-size: calc(100vw/(768/16));
+      line-height: calc(100vw/(768/26.08));
+      width: calc(100vw/(768/352));
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+      margin: 0 auto calc(100vw/(320/25));
+      font-size: calc(100vw/(320/16));
+      line-height: calc(100vw/(320/26.08));
+      width: calc(100vw/(320/288));
+    }
 }

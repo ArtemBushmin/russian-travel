@@ -1,6 +1,27 @@
 .place__image {
-  margin: 0 auto;
   object-fit: cover;
   width: calc(100vw/(1280/460));
   height: calc(100vw/(1280/460));
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: calc(100vw/(1024/440));
+    height: calc(100vw/(1024/440));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: calc(100vw/(768/340));
+    height: calc(100vw/(768/340));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 100%;
+    height: calc(100vw/(320/320));
+    margin-bottom: calc(100vw/(320/32));
+  }
 }

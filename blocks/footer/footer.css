@@ -8,3 +8,28 @@
   align-items: end;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc(100vw/(1024/928));
+    padding: calc(100vw/(1024/92)) 0 calc(100vw/(1024/24));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100vw/(768/720));
+    padding: calc(100vw/(768/88)) 0 calc(100vw/(768/24));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: calc(100vw/(320/186));
+    padding: calc(100vw/(320/64)) 0 calc(100vw/(320/24)) calc(100vw/(320/16));
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(2, max-content);
+    gap: calc(100vw/(320/32));
+    margin: 0;
+  }
+}

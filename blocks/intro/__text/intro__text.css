@@ -1,12 +1,36 @@
 .intro__text {
-  margin: 0;
-  padding-top: calc(100vw/(1280/40));
-  font-family: Inter;
+  margin: calc(100vw/(1280/40)) 0 0 0;
   font-style: normal;
   font-weight: normal;
   font-size: calc(100vw/(1280/16));
   line-height: calc(100vw/(1280/26.08));
   color: #FFFFFF;
-  height: calc(100vw/(1280/690));
-  height: calc(100vw/(1280/208));
+  width: calc(100vw/(1280/690));
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text{
+    margin: calc(100vw/(1024/40)) 0 0 0;
+    font-size: calc(100vw/(1024/16));
+    line-height: calc(100vw/(1024/26.08));
+    width: calc(100vw/(1024/690));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    margin: calc(100vw/(768/40)) 0 0 0;
+    font-size: calc(100vw/(768/16));
+    line-height: calc(100vw/(768/26.08));
+    width: calc(100vw/(768/720));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__text {
+    margin: calc(100vw/(320/40)) 0 0 0;
+    font-size: calc(100vw/(320/16));
+    line-height: calc(100vw/(320/26.08));
+    width: calc(100vw/(320/288));
+  }
 }

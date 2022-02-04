@@ -1,6 +1,5 @@
 .lead__subtitle {
   margin: calc(100vw/(1280/32)) auto calc(100vw/(1280/64));
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: calc(100vw/(1280/30));
@@ -8,5 +7,31 @@
   text-align: center;
   color: #FFFFFF;
   width: calc(100vw/(1280/640));
-  height: calc(100vw/(1280/72));
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__subtitle {
+    margin: calc(100vw/(1024/32)) auto calc(100vw/(1024/56));
+    font-size: calc(100vw/(1024/30));
+    line-height: calc(100vw/(1024/36));
+    width: calc(100vw/(1024/640));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    margin: calc(100vw/(768/32)) auto calc(100vw/(768/56));
+    font-size: calc(100vw/(768/30));
+    line-height: calc(100vw/(768/36));
+    width: calc(100vw/(768/640));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: calc(100vw/(320/16)) auto calc(100vw/(320/40));
+    font-size: calc(100vw/(320/16));
+    line-height: calc(100vw/(320/20));
+    width: calc(100vw/(320/288));
+  }
 }

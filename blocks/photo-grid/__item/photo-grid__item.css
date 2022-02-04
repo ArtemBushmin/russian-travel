@@ -3,3 +3,24 @@
   width: calc(100vw/(1280/284));
   height: calc(100vw/(1280/213));
 }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    width: calc(100vw/(1024/300));
+    height: calc(100vw/(1024/225));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    width: calc(100vw/(768/352));
+    height: calc(100vw/(768/264));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    width: calc(100vw/(320/288));
+    height: calc(100vw/(320/216));
+  }
+}

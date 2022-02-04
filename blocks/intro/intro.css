@@ -5,5 +5,25 @@
   flex-direction: column;
   justify-content: flex-start;
   width: calc(100vw/(1280/690));
-  height: calc(100vw/(1280/429));
+}
+
+@media screen and (max-width: 1024px) {
+  .intro{
+    padding: calc(100vw/(1024/92)) 0 0 calc(100vw/(1024/48));
+    width: calc(100vw/(1024/690));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: calc(100vw/(768/88)) 0 0 calc(100vw/(768/24));
+    width: calc(100vw/(768/720));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: calc(100vw/(320/64)) 0 0 calc(100vw/(320/16));
+    width: calc(100vw/(320/288));
+  }
 }

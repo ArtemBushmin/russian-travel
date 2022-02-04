@@ -1,5 +1,5 @@
 .header__lang-link {
-  font-family: Inter;
+  margin-bottom: calc(100vw/(1280/6));
   font-style: normal;
   font-weight: normal;
   font-size: calc(100vw/(1280/24));
@@ -10,4 +10,28 @@
 
 .header__lang-link:hover {
   opacity: 0.5;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__lang-link {
+    margin-bottom: calc(100vw/(1024/6));
+    font-size: calc(100vw/(1024/24));
+    line-height: calc(100vw/(1024/28));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang-link {
+    margin-bottom: calc(100vw/(768/6));
+    font-size: calc(100vw/(768/24));
+    line-height: calc(100vw/(768/28));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    margin-bottom: calc(100vw/(320/8));
+    font-size: calc(100vw/(320/18));
+    line-height: calc(100vw/(320/20));
+  }
 }

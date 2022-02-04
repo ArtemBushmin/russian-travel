@@ -1,6 +1,5 @@
 .lead__title {
   margin: 0 auto;
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: calc(100vw/(1280/96));
@@ -8,5 +7,28 @@
   text-align: center;
   color: #FFFFFF;
   width: calc(100vw/(1280/720));
-  height: calc(100vw/(1280/200));
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    font-size: calc(100vw/(1024/96));
+    line-height: calc(100vw/(1024/100));
+    width: calc(100vw/(1024/720));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    font-size: calc(100vw/(768/96));
+    line-height: calc(100vw/(768/100));
+    width: calc(100vw/(768/720));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__title {
+    font-size: calc(100vw/(320/40));
+    line-height: calc(100vw/(320/44));
+    width: calc(100vw/(320/288));
+  }
 }
