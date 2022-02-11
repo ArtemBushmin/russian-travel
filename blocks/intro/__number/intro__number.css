@@ -1,0 +1,28 @@
+.intro__number {
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(100vw/(1280/12));
+  line-height: calc(100vw/(1280/18));
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__number {
+    font-size: calc(100vw/(1024/12));
+    line-height: calc(100vw/(1024/18));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__number {
+    font-size: calc(100vw/(768/12));
+    line-height: calc(100vw/(768/18));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__number {
+    font-size: calc(100vw/(320/12));
+    line-height: calc(100vw/(320/18));
+  }
+}

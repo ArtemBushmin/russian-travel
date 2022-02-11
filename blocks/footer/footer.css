@@ -29,7 +29,7 @@
     padding: calc(100vw/(320/64)) 0 calc(100vw/(320/24)) calc(100vw/(320/16));
     grid-template-columns: max-content;
     grid-template-rows: repeat(2, max-content);
-    gap: calc(100vw/(320/32));
+    gap: calc(100vw/(320/48));
     margin: 0;
   }
 }

@@ -6,6 +6,7 @@
   line-height: calc(100vw/(1280/12));
   letter-spacing: calc(100vw/(1280/2));
   color: #AAAAAA;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1024px) {
